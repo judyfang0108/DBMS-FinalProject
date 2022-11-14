@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>548</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>490</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查詢</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>SELECT-FROM-WHERE</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DELETE</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>INSERT</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UPDATE</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>IN</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NOT IN</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>EXISTS</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NOT EXISTS</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COUNT</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SUM</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MAX</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MIN</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AVG</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HAVING</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MySQL</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>130</y>
+     <width>271</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查詢關鍵字</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查詢工具</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>280</y>
+     <width>271</width>
+     <height>191</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
