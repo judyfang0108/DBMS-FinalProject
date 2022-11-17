@@ -1,6 +1,5 @@
-# DBMS Final Project
+# DBMS Project
 
-# 系統架構與環境  
 ## File Structure  
 - start.py: entry point  
 - ui.py, SubWindow.py: GUI  
